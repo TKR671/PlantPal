@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#f5f7ef"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="default"><meta name="apple-mobile-web-app-title" content="PlantPal">
+<link rel="manifest" href="manifest.webmanifest"><link rel="apple-touch-icon" href="icons/apple-touch-icon.svg">
+<link rel="stylesheet" href="styles.css"><title>PlantPal</title>
+</head>
+<body>
+<div class="app-shell">
+<header class="topbar"><div><div class="eyebrow">YOUR LITTLE GREEN SPACE</div><h1 id="page-title">Today</h1></div><button class="icon-btn" id="header-action" aria-label="Add plant">＋</button></header>
+<main id="main" tabindex="-1"></main>
+<nav class="tabbar" aria-label="Main navigation">
+<button class="tab active" data-tab="today"><span>⌂</span>Today</button>
+<button class="tab" data-tab="plants"><span>♧</span>Plants</button>
+<button class="tab" data-tab="settings"><span>⚙</span>Settings</button>
+</nav>
+</div>
+<div id="modal-root"></div><div id="toast" role="status"></div>
+<script src="app.js"></script>
+</body></html>
