@@ -1,0 +1,22 @@
+{
+  "name": "PlantPal",
+  "short_name": "PlantPal",
+  "description": "A gentle companion for caring for your plants.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f5f7ef",
+  "theme_color": "#f5f7ef",
+  "icons": [
+    {
+      "src": "icons/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    },
+    {
+      "src": "icons/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}
